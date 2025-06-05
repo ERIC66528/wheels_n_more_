@@ -15,8 +15,8 @@ header {
   margin: 10px;
   padding: 15px 25px;
   font-size: 16px;
-  color: #fff;
-  background-color: white;
+  color: #000;
+  background-color: #fff;
   text-decoration: none;
   border-radius: 5px;
 }
@@ -71,6 +71,33 @@ header {
   height: 150px;
   border-radius: 10px;
   flex-shrink: 0;
+}
+.add-to-cart {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background-color: #008000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.cart-summary {
+  border: 2px solid #000;
+  border-radius: 15px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+}
+.cart-summary h2 {
+  text-align: center;
+}
+#cart-items {
+  list-style-type: none;
+  padding: 0;
+}
+#cart-items li {
+  margin: 5px 0;
 }
 footer {
   background-color: #f4f4f4;
