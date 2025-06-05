@@ -6,7 +6,7 @@ body {
 }
 header {
   background-color: black;
-  color: #008000;
+  color: white;
   padding: 10px 0;
   text-align: center;
 }
@@ -21,7 +21,7 @@ header {
   border-radius: 5px;
 }
 .whatsapp-button {
-  background-color: #25d366;
+  background-color: blue;
   color: white;
   padding: 10px 20px;
   text-align: center;
