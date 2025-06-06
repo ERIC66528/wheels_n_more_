@@ -1,4 +1,8 @@
-const cars = [
+
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+  const cars = [
   {
     name: "Toyota Prado TX",
     price: 4500,
